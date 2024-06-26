@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import Error
-from settings import *
+from tomato_tables.settings import *
 # from text_tool import *
 from tomato_tables.text_tool import *
 
@@ -28,7 +28,7 @@ def create_people_table():
         conn.autocommit = True  # устанавливаем актокоммит
         cursor = conn.cursor()
         
-        cursor.execute(f"CREATE TABLE {table_people_name} (id SERIAL PRIMARY KEY, tg_id INT PRIMARY KEY);")
+        cursor.execute(f"CREATE TABLE {table_people_name} (id SERIAL PRIMARY KEY, tg_id INT);")
         # ALTER TABLE users ADD PRIMARY KEY
         # cursor.execute(f"ALTER TABLE {table_people_name} ADD PRIMARY KEY (tg_id)")
     except (Exception, Error) as error:

@@ -11,7 +11,7 @@ async def main():
         BotCommand(command="/raport", description="Получить информацию по посевам"),
     ]
 
-    bot = Bot(token="")
+    bot = Bot(token="7047861632:AAExHAlgPXYKxYtWql6ruaM0eMjMPbrcsIQ")
     dp = Dispatcher()
 
     dp.include_routers(select_fruits.router, raport.router, mn.router)

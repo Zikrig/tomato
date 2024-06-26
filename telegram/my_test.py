@@ -1,6 +1,7 @@
 # from main.settings import *
-from create_tables import *
-from people_tool import *
+from tomato_tables.create_tables import *
+from tomato_tables.people_tool import *
+from tomato_tables.settings import *
 
 # Создание таблицы с людьми
 # Поля (id, tg_id)
@@ -18,7 +19,7 @@ from people_tool import *
 # add_fruit('Апельсин', 'orange', 2,2,9,9)
 
 # Получает все имеющиеся фрукты
-# print(get_fruits())
+# print(get_fruits(fruits_list))
 
 # Получает все имеющиеся столбцы с фруктами в таблице с людьми (отладочное)
 # print(get_people())

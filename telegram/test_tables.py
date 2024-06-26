@@ -3,7 +3,7 @@ import keyboards.tomato_keyboard as kb
 from tomato_tables.text_tool import *
 from tomato_tables.people_tool import *
 from tomato_tables.create_tables import *
-from settings import *
+from telegram.tomato_tables.settings import *
 
 # create_people_table()
 # print(get_fruits_cols())

@@ -1,7 +1,7 @@
 import psycopg2
 from psycopg2 import Error
 
-from settings import *
+# from settings import *
 
 from tomato_tables.create_tables import *
 from tomato_tables.text_tool import *

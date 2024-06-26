@@ -1,5 +1,5 @@
 
-from settings import *
+from tomato_tables.settings import *
 
 import json
 

@@ -18,7 +18,7 @@ import keyboards.tomato_keyboard as kb
 from tomato_tables.text_tool import *
 from tomato_tables.people_tool import *
 from tomato_tables.create_tables import *
-from settings import *
+from tomato_tables.settings import *
 
 router = Router()
 
